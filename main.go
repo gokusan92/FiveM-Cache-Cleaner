@@ -41,6 +41,8 @@ var cacheFolders = []string{
 	"server-cache-priv",
 }
 
+//go:generate goversioninfo -icon=app.ico -manifest=app.manifest
+//go:embed app.ico
 var appIcon embed.FS
 
 type FiveMCacheCleaner struct {
@@ -282,8 +284,8 @@ func (f *FiveMCacheCleaner) createMainWindow() error {
 func main() {
 	updateManager := NewUpdateManager("owner", "repo")
 
-	if updateManager.CheckVersion("v1.0.0.5") {
-		updateManager.DownloadLatestAsset("app.exe", "v1.0.0.5")
+	if updateManager.CheckVersion("v1.0.0.6") {
+		updateManager.DownloadLatestAsset("app.exe", "v1.0.0.6")
 	}
 
 	cleaner := NewFiveMCacheCleaner()

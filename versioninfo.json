@@ -22,14 +22,14 @@
         "Comments": "FiveM Cache Cleaner utility",
         "CompanyName": "Xostme LTD",
         "FileDescription": "FiveM Cache Cleaner",
-        "FileVersion": "1.0.0.0",
+        "FileVersion": "1.0.0.6",
         "InternalName": "fivemcleaner",
         "LegalCopyright": "Xostme LTD",
         "LegalTrademarks": "Xostme LTD",
         "OriginalFilename": "fivemcleaner.exe",
         "PrivateBuild": "",
         "ProductName": "FiveM Cache Cleaner",
-        "ProductVersion": "1.0.0.0",
+        "ProductVersion": "1.0.0.6",
         "SpecialBuild": ""
     },
     "VarFileInfo": {
